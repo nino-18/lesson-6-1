@@ -1,0 +1,99 @@
+*{box-sizing: border-box;
+margin: 0;
+padding: 0;}
+main{
+    margin-top: 50px;
+ display: flex;
+justify-content:space-around;
+
+}
+.border{
+    border: 2px solid black;
+}
+aside{
+    width:20%;
+  
+}
+.aside-left{
+    width: 300px;
+    height: 500px;
+}
+.img{
+    width: 297px;
+    height: 250px;
+}
+.container-one{
+margin-top: 20px;
+padding-left: 10px;
+}
+.dots{
+    display: flex;
+   flex-direction: row-reverse;
+   align-items: flex-start;
+   margin-top: -20px;
+}
+.section-one{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    text-align: center;
+  
+}
+.section-one:hover{
+    color: blue;
+}
+.p-one{
+ font-size: larger;
+ font-weight: bolder;
+ color: black;
+}
+.p-one:hover{
+    color: blue;
+}
+.line{
+    border-top: 2px solid rgb(113, 127, 141);
+    margin-top: 50px;
+}
+.div-one{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.number{
+    font-size: larger;
+    margin-right: -50px;
+  
+}
+.material{
+    color: red;
+}
+.img-two{
+    width:100%;
+    height: 250px;  
+
+}
+.article{
+    width: 30%;
+
+}
+.line-two{
+    border-top:2px solid rgb(113, 127, 141) ;
+    margin-top:63px;
+
+}
+.number-six{
+    font-size: larger;
+    margin-right: -105px;
+}
+.img-three{
+    width: 100%;
+    height: 250px;  
+
+}
+.aside-right{
+    width: 25%;
+}
+.number-three{
+    font-size: larger;
+    margin-right: -70px;
+}
